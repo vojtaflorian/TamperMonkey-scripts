@@ -2,7 +2,7 @@
 
 A production-ready UserScript that enhances Asana's interface with improved workflow features, better visibility, and streamlined task management.
 
-**Version:** v2.7.0
+**Version:** v2.7.1
 
 ## 🚀 Features
 
@@ -259,6 +259,9 @@ Contributions, issues, and feature requests are welcome!
 - Test thoroughly in multiple browsers
 
 ## 📝 Changelog
+
+### v2.7.1
+- 🔧 Reverted v2.7.0 — model back to `gemini-2.5-flash`
 
 ### v2.7.0
 - 🔧 Gemini model bumped `gemini-2.5-flash` → `gemini-3.5-flash`

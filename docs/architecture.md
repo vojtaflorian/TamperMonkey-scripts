@@ -18,4 +18,4 @@ No build step, no deps — runs as one IIFE (`"use strict"`).
 `gatherTaskContext()` (DOM scrape) → `buildXPrompt()` → `callGemini()` (GM_xmlhttpRequest) → `parseAiJson()` → `showApprovalModal()` → user approves → `writeDescription()` (ProseMirror) + `createSubtasksSequentially()`.
 
 ## External integration
-Google Gemini `generativelanguage.googleapis.com` (`gemini-3.5-flash`). API key in GM storage. Enhance uses Google Search grounding (`tools:[{google_search:{}}]`).
+Google Gemini `generativelanguage.googleapis.com` (`gemini-2.5-flash`). API key in GM storage. Enhance uses Google Search grounding (`tools:[{google_search:{}}]`).

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Asana Improvements
-// @version 2.7.0
+// @version 2.7.1
 // @updateURL https://github.com/vojtaflorian/Asana-Improvements/raw/main/asana-improvements.user.js?v=@version
 // @downloadURL https://github.com/vojtaflorian/Asana-Improvements/raw/main/asana-improvements.user.js?v=@version
 // @description Asana workflow enhancements (Sol + Legacy support) + AI Breakdown & AI Enhance (Gemini)
@@ -37,7 +37,7 @@
       aiEnhance: true,
     },
     ai: {
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       apiBase: "https://generativelanguage.googleapis.com/v1beta/models",
       storageKey: "gemini_api_key",
       maxComments: 15,
